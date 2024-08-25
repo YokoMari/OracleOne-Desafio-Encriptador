@@ -44,6 +44,7 @@ El proyecto está organizado en los siguientes archivos y carpetas:
 <div align="center">
 <img src="https://github.com/YokoMari/OracleOne-Desafio-Encriptador/blob/d3d5164a1e1476b1f8e6258d85b855fb3f55bfe1/assets/img/PartesDise%C3%B1o.png" width="80%" />
 </div>
+
 1. Título y Logo del Proyecto
 2. Área de Información y Contacto
 3. Campo de Entrada de Texto
@@ -54,9 +55,10 @@ El proyecto está organizado en los siguientes archivos y carpetas:
 8. Botón de Limpiar
 9. Botón de Copiar
 
-### Diseño Responsivo
+
 <div  align="center">
-<img src="https://github.com/YokoMari/OracleOne-Desafio-Encriptador/blob/c38d71f6810e2bd512739d78abdb29636d819327/assets/img/Dise%C3%B1oR.png" width="80%"/>
+  <h3>Diseño Responsivo</h3>
+  <img src="https://github.com/YokoMari/OracleOne-Desafio-Encriptador/blob/c38d71f6810e2bd512739d78abdb29636d819327/assets/img/Dise%C3%B1oR.png" width="80%"/>
 </div>
 
 ## Funcionalidades
