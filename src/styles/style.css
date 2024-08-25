@@ -58,6 +58,7 @@ header {
 .logo {
     width: 28vh;
     padding: 0.5vh;
+    margin-top: 2vh;
     filter: drop-shadow(0px 0px 2px #00c2ff)
             drop-shadow(0px 0px 6px #ffffff)
             drop-shadow(0px 0px 8px #00c2ff)
