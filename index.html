@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Desafio: Encriptador</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Desafio de programación del programa educativo OracleONE">
+    <meta name="keywords" content="html, css, js, desafio de programación, oracleONE">
+    <meta name="author" content="Maria V. Garcia Riveros">
+    <meta name="application-name" content="Encriptador">
+    <meta name="generator" content="VSCode">
+    <meta name="theme-color" content="#2A6DCC">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    
+    <link rel="stylesheet" href="src/styles/style.css"/>
+    <link rel="icon" type="image/svg+xml" href="assets/img/logoPage4.svg">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="assets/img/logoPage4.svg" alt="logo page">
+        </a>
+
+        <h1 class="title">Desafio Encriptador</h1>
+        <h2 class="subtitle">Alura + OracleONE</h2>
+
+        <address class="addressWEB">
+            <div class="contact">
+                <p class="text strong">¡Encripta y desencripta al instante!</p>
+                <p class="text">Explora el sitio web y descrubre las frases secretas.</p>
+                <p class="text">Sigueme en mis Redes: </p>
+        
+                <div class="redes">
+                    <a  href="https://github.com/YokoMari">
+                        <!-- <img class="redes-link" src="assets/img/github-sign.png"> -->
+                        <iconify-icon class="redes-link" icon="bi:github"></iconify-icon>
+                    </a>
+                    <a href="www.linkedin.com/in/maria-valentina-garcia-riveros">
+                        <!-- <img  class="redes-link" src="assets/img/linkedin.png"> -->
+                        <iconify-icon class="redes-link" icon="ls:linkedin"></iconify-icon>
+                    </a>
+                </div>
+            </div>
+        </address>
+
+        <footer class="footerWEB">
+            <p>©2024 - Desarrollado por Maria V. Garcia Riveros</p>
+        </footer>
+    
+    </header>
+
+    <main class="container">
+        <div class="card input">
+
+            <textarea id="input-text"  placeholder="Ingresa el texto aquí" pattern="[a-z0-9]*" cols="30" rows="10" required ></textarea>
+
+            <button class="btmClear" id="clear-text">
+                <iconify-icon class="icon" inline icon="tabler:trash-x-filled"></iconify-icon>
+            </button>
+            
+        </div>
+
+        <div class="card-buttons">
+            <button class="btm izq" id="encrypt">Encriptar</button>
+            <button class="btm der" id="decrypt">Desencriptar</button>
+        </div>
+
+        <div class="card output">
+
+            <textarea id="output-text" placeholder="Aquí aparecerá el resultado"  cols="30" rows="10" disabled></textarea>
+            <div class="alert">
+                <iconify-icon class="iconAlert" icon="mage:exclamation-triangle-fill"></iconify-icon>
+                <span id="input-alert"> Solo letras minúsculas y sin acentos.</span>
+            </div>
+
+            <button class="btmCopy" id="copy-text">
+                <iconify-icon class="icon" icon="mage:copy-fill"></iconify-icon>
+            </button>
+
+        </div>
+    </main>
+
+    <address class="addressMOVIL">
+        <div class="contact">
+            <p class="text strong">¡Encripta y desencripta al instante!</p>
+            <p class="text">Explora el sitio web y descrubre las frases secretas.</p>
+            <p class="text">Sigueme en mis Redes: </p>
+    
+            <div class="redes">
+                <a  href="https://github.com/YokoMari">
+                    <!-- <img class="redes-link" src="assets/img/github-sign.png"> -->
+                    <iconify-icon class="redes-link" icon="bi:github"></iconify-icon>
+                </a>
+                <a href="www.linkedin.com/in/maria-valentina-garcia-riveros">
+                    <!-- <img  class="redes-link" src="assets/img/linkedin.png"> -->
+                    <iconify-icon class="redes-link" icon="ls:linkedin"></iconify-icon>
+                </a>
+            </div>
+        </div>
+    </address>
+
+    <script src="./src/scripts/script.js"></script>
+
+    <footer class="footerMOVIL">
+        <p>©2024 - Desarrollado por Maria V. Garcia Riveros</p>
+    </footer>
+    
+</body>
+</html>
